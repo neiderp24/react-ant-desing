@@ -1,0 +1,36 @@
+/* Estilos personalizados para la tabla */
+.custom-table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+
+.custom-table th,
+.custom-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.custom-table tr td,
+.custom-table tr th {
+    border-right: 1px solid #aaa;
+}
+
+.custom-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    text-align: center;
+}
+
+.custom-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.custom-table tr:hover {
+    background-color: #e2e2e2;
+}
+
+.custom-table .ant-btn {
+    font-size: 12px;
+    padding: 4px 10px;
+}
